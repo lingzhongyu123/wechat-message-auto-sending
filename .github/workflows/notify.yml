@@ -8,6 +8,9 @@ on:
   # 允许手动运行（方便测试）
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   send:
     runs-on: ubuntu-latest
